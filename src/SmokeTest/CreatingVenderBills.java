@@ -88,7 +88,7 @@ public class CreatingVenderBills {
         //(//div[@class='o_input_dropdown'])[2]
 
         WebElement VendorReference = driver.findElement(By.xpath("(//input[@type='text'])[7]"));
-        VendorReference.click();
+
         Thread.sleep(1000);
         VendorReference.sendKeys("qwerty");
         Thread.sleep(1000);
@@ -154,6 +154,6 @@ public class CreatingVenderBills {
 //        //a is linkText
 
 
-        driver.close();
+        //wdriver.close();
     }
 }
